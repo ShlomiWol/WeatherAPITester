@@ -53,7 +53,7 @@ function show_data()
   rm -f /tmp/weather_data.tmp > /dev/null
 }
 
-# Prints the weather output in one of the foramts(json,xml,html)
+# Prints the weather output in one of the formats(json,xml,html)
 function show_format()
 {
   format=$1
