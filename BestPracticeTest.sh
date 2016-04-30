@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script tests the OpenWeatherMap API. This is the est practices, search city according to his ID.
+# This script tests the OpenWeatherMap API. This is the best practices, search city according to his ID.
 # Shows the current location weather to the user.
 
 # Author: Shlomi Wolman
@@ -9,7 +9,7 @@ appid_key='266c459ea57a799c3948e18df59d448a'
 url='http://api.openweathermap.org/data/2.5/weather'
 
 # Download the city list from OpenWeatherAPI
-echo "The Shlomi's Tester API - as OpenWeatherMap best practices (search according to ID)"
+echo "The Shlomi's Tester API - according to OpenWeatherMap best practices (search according to ID)"
 echo "Please Wait..... Loading the city list......"
 wget -q "http://bulk.openweathermap.org/sample/city.list.json.gz" -O /tmp/city.list.json.gz
 gzip -df /tmp/city.list.json.gz
