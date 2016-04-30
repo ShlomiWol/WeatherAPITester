@@ -1,2 +1,2 @@
 # WeatherAPITester
-This repository has tests to the OenWeatherMap API
+This repository has tests to the OpenWeatherMap API
